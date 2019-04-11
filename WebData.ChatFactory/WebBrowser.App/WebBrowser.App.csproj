@@ -88,6 +88,10 @@
       <Project>{1f1024e8-5fdf-4735-a601-77f29886dc9d}</Project>
       <Name>ChatFactory.App</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Support\Sample.AppControl\Sample.AppControl.csproj">
+      <Project>{4678492e-5639-4ac9-aef3-a69a3fdbce86}</Project>
+      <Name>Sample.AppControl</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
