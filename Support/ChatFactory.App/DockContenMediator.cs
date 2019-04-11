@@ -7,14 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ChatFactory.App;
-namespace WebBrowser.App
+
+namespace ChatFactory.App
 {
-    public partial class FrmMain : DockContenMediator
+    public partial class DockContenMediator : Form
     {
-        public FrmMain()
+        public DockContenMediator()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.None;
         }
     }
 }
