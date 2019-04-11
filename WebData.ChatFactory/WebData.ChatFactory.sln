@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatFactory.App", "..\Suppo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Browser.AppControl", "..\Support\Browser.AppControl\Browser.AppControl.csproj", "{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.AppControl", "..\Support\Sample.AppControl\Sample.AppControl.csproj", "{4678492E-5639-4AC9-AEF3-A69A3FDBCE86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin", "Plugin", "{4E39C69E-43EB-413A-BF1A-55FA6F73D77F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manage", "Manage", "{B70E969C-2248-45CB-947F-624784FC5351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +33,18 @@ Global
 		{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4678492E-5639-4AC9-AEF3-A69A3FDBCE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4678492E-5639-4AC9-AEF3-A69A3FDBCE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4678492E-5639-4AC9-AEF3-A69A3FDBCE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4678492E-5639-4AC9-AEF3-A69A3FDBCE86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F1024E8-5FDF-4735-A601-77F29886DC9D} = {B70E969C-2248-45CB-947F-624784FC5351}
+		{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F} = {4E39C69E-43EB-413A-BF1A-55FA6F73D77F}
+		{4678492E-5639-4AC9-AEF3-A69A3FDBCE86} = {4E39C69E-43EB-413A-BF1A-55FA6F73D77F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD70D8BE-F453-4A6B-9513-9D3F7C04EDE3}
