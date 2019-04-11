@@ -79,5 +79,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Support\Browser.AppControl\Browser.AppControl.csproj">
+      <Project>{6d61e0d6-2877-4b57-9da9-b4e27dbe9c0f}</Project>
+      <Name>Browser.AppControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Support\ChatFactory.App\ChatFactory.App.csproj">
+      <Project>{1f1024e8-5fdf-4735-a601-77f29886dc9d}</Project>
+      <Name>ChatFactory.App</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

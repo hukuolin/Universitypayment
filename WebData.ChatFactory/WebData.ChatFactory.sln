@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBrowser.App", "WebBrowser.App\WebBrowser.App.csproj", "{4405F45B-0CE0-4161-9333-C5432F5C70C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatFactory.App", "..\Support\ChatFactory.App\ChatFactory.App.csproj", "{1F1024E8-5FDF-4735-A601-77F29886DC9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Browser.AppControl", "..\Support\Browser.AppControl\Browser.AppControl.csproj", "{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4405F45B-0CE0-4161-9333-C5432F5C70C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4405F45B-0CE0-4161-9333-C5432F5C70C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4405F45B-0CE0-4161-9333-C5432F5C70C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1024E8-5FDF-4735-A601-77F29886DC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1024E8-5FDF-4735-A601-77F29886DC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1024E8-5FDF-4735-A601-77F29886DC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1024E8-5FDF-4735-A601-77F29886DC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D61E0D6-2877-4B57-9DA9-B4E27DBE9C0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
