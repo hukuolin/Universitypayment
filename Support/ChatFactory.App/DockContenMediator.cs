@@ -12,7 +12,11 @@ namespace ChatFactory.App
 {
     public partial class DockContenMediator : Form, IMediator, INotifier
     {
-        public DockContenMediator()
+        public DockContenMediator() : this("")
+        {
+
+        }
+        public DockContenMediator(string name)
         {
             InitializeComponent();
             FormBorderStyle = FormBorderStyle.None;

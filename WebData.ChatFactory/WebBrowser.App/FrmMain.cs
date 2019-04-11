@@ -12,7 +12,7 @@ namespace WebBrowser.App
 {
     public partial class FrmMain : DockContenMediator
     {
-        public FrmMain()
+        public FrmMain():base("FrmMain")
         {
             InitializeComponent();
         }
